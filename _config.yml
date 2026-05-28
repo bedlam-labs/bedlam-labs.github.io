@@ -1,0 +1,32 @@
+title: Bedlam Labs
+description: Multi-agent LLM research platform built on Minecraft Bedwars. Studying emergent coordination, communication, and behavior under competitive pressure.
+url: "https://bedlam-labs.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+minimal_mistakes_skin: "dark"
+
+author:
+  name: "Aiden Tran"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+
+paginate: 5
+paginate_path: /page:num/
+
+include:
+  - _pages
