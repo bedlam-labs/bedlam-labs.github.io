@@ -9,10 +9,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "contrast"
 
-author:
-  name: "Aiden Tran"
 
 defaults:
   - scope:
